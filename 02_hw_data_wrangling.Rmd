@@ -129,7 +129,7 @@ plot_q3 <- ggplot(us_house_data, aes(x = impressions_millions)) +
        x = "Impressions (millions)",
        y = "Count")
 
-plot_q3
+print(plot_q3)
 ```
 The histogram is skewed to the right, meaning that the majority of Candidates had fewer than 10 million impressions. 
 
